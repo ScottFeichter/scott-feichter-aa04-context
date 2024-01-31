@@ -20,6 +20,8 @@ class Calculator {
 	}
 }
 
+module.exports = Calculator;
+
 let calculator = new Calculator();
 console.log(calculator.add(50));      // => 50
 console.log(calculator.subtract(35)); // => 15
